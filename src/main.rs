@@ -30,8 +30,9 @@ fn boots(){
 }
 
 fn main() {
+    print!("Hello World!);
+    
     print_name_given();
     let result = bracket(6, 2);
     println!("The sum is: {}", result);
-    boots();
 }
