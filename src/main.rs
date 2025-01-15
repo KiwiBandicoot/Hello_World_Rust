@@ -10,7 +10,7 @@ fn print_name_given() {
     io::stdin().read_line(&mut name).unwrap();
     let name = name.trim();
     greet(name);
-    boots();
+    math();
     println!("Bonjour, {}!", name);
 }
 
@@ -22,7 +22,7 @@ fn greet(name: &str) {
     println!("Hello, {}!", name);
 }
 
-fn boots(){
+fn math(){
     let x: i32 = 10;
     let y: i32 = -5;
     
