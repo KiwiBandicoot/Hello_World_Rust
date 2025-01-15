@@ -34,5 +34,7 @@ fn main() {
     
     print_name_given();
     let result = bracket(6, 2);
+    println!("If a is 6 and b is 2!");
+    println!("I wonder what a * B + a - b is?");
     println!("The sum is: {}", result);
 }
