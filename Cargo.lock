@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "hellow_world"
+name = "hellow_world_rust"
 version = "0.1.0"
